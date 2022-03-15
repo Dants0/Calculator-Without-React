@@ -1,0 +1,46 @@
+*{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: gray !important;
+}
+
+input{
+    display: flex;
+    font-size: 25px;
+    justify-content:center;
+    margin: 10px 5px 5px 10px;
+    width: 300px;
+    height: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.showResult{
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: 10px 5px 5px 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #f0f8ffcc;
+}
+
+.box{
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+}

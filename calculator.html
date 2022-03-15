@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Calculadora Simples</h1>
+        <input type="text" placeholder="Primeiro numero" id="num-1">
+        <input type="text" placeholder="Segundo numero" id="num-2">
+        <input type="button" value="+" onclick="calc(this)">
+        <input type="button" value="-" onclick="calc(this)">
+        <input type="button" value="*" onclick="calc(this)">
+        <input type="button" value="/" onclick="calc(this)">
+        <span class="showResult">Resultado</span>
+        <input type="button" onfocus="" value="Limpar" id="clear" onclick="tela(this)">
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
